@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintbrushModel.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+
 
 
 @end

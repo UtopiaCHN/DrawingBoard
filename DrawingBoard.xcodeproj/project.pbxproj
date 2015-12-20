@@ -14,6 +14,9 @@
 		49D948FF1B8F19AC00A0121E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D948FE1B8F19AC00A0121E /* Images.xcassets */; };
 		49D949021B8F19AC00A0121E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D949001B8F19AC00A0121E /* LaunchScreen.xib */; };
 		49D9490E1B8F19AC00A0121E /* DrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D9490D1B8F19AC00A0121E /* DrawingBoardTests.m */; };
+		49D949191B8F23A200A0121E /* PaintbrushModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D949181B8F23A200A0121E /* PaintbrushModel.m */; };
+		49D9491F1B8F2BEC00A0121E /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D9491E1B8F2BEC00A0121E /* DrawView.m */; };
+		49E9FB221B998695002631C3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E9FB211B998695002631C3 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		49D949071B8F19AC00A0121E /* DrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D9490C1B8F19AC00A0121E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49D9490D1B8F19AC00A0121E /* DrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardTests.m; sourceTree = "<group>"; };
+		49D949171B8F23A200A0121E /* PaintbrushModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintbrushModel.h; sourceTree = "<group>"; };
+		49D949181B8F23A200A0121E /* PaintbrushModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintbrushModel.m; sourceTree = "<group>"; };
+		49D9491D1B8F2BEC00A0121E /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		49D9491E1B8F2BEC00A0121E /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		49E9FB211B998695002631C3 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,11 @@
 				49D948F61B8F19AC00A0121E /* AppDelegate.m */,
 				49D948F81B8F19AC00A0121E /* ViewController.h */,
 				49D948F91B8F19AC00A0121E /* ViewController.m */,
+				49E9FB211B998695002631C3 /* Property List.plist */,
+				49D949171B8F23A200A0121E /* PaintbrushModel.h */,
+				49D949181B8F23A200A0121E /* PaintbrushModel.m */,
+				49D9491D1B8F2BEC00A0121E /* DrawView.h */,
+				49D9491E1B8F2BEC00A0121E /* DrawView.m */,
 				49D948FB1B8F19AC00A0121E /* Main.storyboard */,
 				49D948FE1B8F19AC00A0121E /* Images.xcassets */,
 				49D949001B8F19AC00A0121E /* LaunchScreen.xib */,
@@ -201,6 +214,7 @@
 			files = (
 				49D948FD1B8F19AC00A0121E /* Main.storyboard in Resources */,
 				49D949021B8F19AC00A0121E /* LaunchScreen.xib in Resources */,
+				49E9FB221B998695002631C3 /* Property List.plist in Resources */,
 				49D948FF1B8F19AC00A0121E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +236,8 @@
 				49D948FA1B8F19AC00A0121E /* ViewController.m in Sources */,
 				49D948F71B8F19AC00A0121E /* AppDelegate.m in Sources */,
 				49D948F41B8F19AC00A0121E /* main.m in Sources */,
+				49D949191B8F23A200A0121E /* PaintbrushModel.m in Sources */,
+				49D9491F1B8F2BEC00A0121E /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +434,7 @@
 				49D949131B8F19AC00A0121E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49D949141B8F19AC00A0121E /* Build configuration list for PBXNativeTarget "DrawingBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +443,7 @@
 				49D949161B8F19AC00A0121E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
